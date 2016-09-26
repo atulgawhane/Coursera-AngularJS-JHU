@@ -1,6 +1,7 @@
 (function () {
 'use strict';
 
+//checkoff application
 angular.module('ShoppingListCheckOff', [])
   .controller('ToBuyController', ToBuyController)
   .controller('AlreadyBoughtController', AlreadyBoughtController)
